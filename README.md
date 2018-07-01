@@ -9,3 +9,5 @@ Current programming challenges include:
 * [What Century in JavaScript](WhatCentury/whatCentury.js)
 3. Palindome (Given a string, decide if the string is a palindrome ot not)
 * [Palindrome in JavaScript](Palindrome/palindrome.js)
+4. Adjacent Product (return the highest product from adjacent numbers in an array)
+* [Adjacent Product in Javascript](adjacentProduct/adjacentProduct.js)
