@@ -13,3 +13,4 @@ Current programming challenges include:
 * [Adjacent Product in Javascript](adjacentProduct/adjacentProduct.js)
 5. Add Two Digits (Given a 2 digit number, return the sum of the digits)
 * [Add Two Digits in Javascript](addTwoDigits/addTwoDigits.js)
+* [Add Two Digits in Ruby](addTwoDigits/addTwoDigits.rb)
