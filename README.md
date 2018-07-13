@@ -14,3 +14,5 @@ Current programming challenges include:
 5. Add Two Digits (Given a 2 digit number, return the sum of the digits)
 * [Add Two Digits in Javascript](addTwoDigits/addTwoDigits.js)
 * [Add Two Digits in Ruby](addTwoDigits/addTwoDigits.rb)
+6. Is Infinite Process?
+* [Is Infinite Process](isInfiniteProcess/isInfinite.js)
