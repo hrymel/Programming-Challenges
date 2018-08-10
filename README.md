@@ -1,7 +1,6 @@
 # Programming-Challenges
 A repo containing programming challenges, such as FizzBuzz. A large number of these challenges originated from codesignal.com (Previously codefights.com).
 
-Current programming challenges include:
 1. Fizzbuzz
 * [Fizzbuzz in JavaScript](FizzBuzz/fizzBuzz.js)
 * [FizzBuzz in Ruby](FizzBuzz/fizzbuzz.rb)
