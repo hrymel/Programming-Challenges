@@ -19,3 +19,5 @@ Current programming challenges include:
 * [Is Infinite Process](isInfiniteProcess/isInfinite.js)
 7. Char Location (Split a string up, then give the location of every time letter 'x' is used)
 * [Char Location in Javascript](charLocation/charLocation.js)
+8. Consecutive Array (sort numbers in an increasing array, return if one is missing)
+* [Consecutive Array in Javascript](consecutiveArray/consecutiveArray.js)
