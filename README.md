@@ -1,7 +1,6 @@
 # Programming-Challenges
-A repo containing programming challenges, such as FizzBuzz.
+A repo containing programming challenges, such as FizzBuzz. A large number of these challenges originated from codesignal.com (Previously codefights.com).
 
-Current programming challenges include:
 1. Fizzbuzz
 * [Fizzbuzz in JavaScript](FizzBuzz/fizzBuzz.js)
 * [FizzBuzz in Ruby](FizzBuzz/fizzbuzz.rb)
@@ -19,5 +18,8 @@ Current programming challenges include:
 * [Is Infinite Process](isInfiniteProcess/isInfinite.js)
 7. Char Location (Split a string up, then give the location of every time letter 'x' is used)
 * [Char Location in Javascript](charLocation/charLocation.js)
+<<<<<<< HEAD
 8. Consecutive Array (sort numbers in an increasing array, return if one is missing)
 * [Consecutive Array in Javascript](consecutiveArray/consecutiveArray.js)
+=======
+>>>>>>> a36c866eb9e225f2b36220f787c668ae7c09b6f7
