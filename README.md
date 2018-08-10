@@ -7,6 +7,7 @@ Current programming challenges include:
 * [FizzBuzz in Ruby](FizzBuzz/fizzbuzz.rb)
 2. What Century is it? (Given a year, return the century)
 * [What Century in JavaScript](WhatCentury/whatCentury.js)
+* [What Century in Python](WhatCentury/whatCentury.py)
 3. Palindome (Given a string, decide if the string is a palindrome ot not)
 * [Palindrome in JavaScript](Palindrome/palindrome.js)
 4. Adjacent Product (return the highest product from adjacent numbers in an array)
