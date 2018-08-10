@@ -16,3 +16,5 @@ Current programming challenges include:
 * [Add Two Digits in Ruby](addTwoDigits/addTwoDigits.rb)
 6. Is Infinite Process?
 * [Is Infinite Process](isInfiniteProcess/isInfinite.js)
+7. Char Location (Split a string up, then give the location of every time letter 'x' is used)
+* [Char Location in Javascript](charLocation/charLocation.js)

@@ -1,0 +1,62 @@
+On a hot summer day, you and some friends are hanging out at a camping ground. While foraging for food, you eat an unusual looking mushroom and you start to feel a little funny.
+
+Later, back at the camp site, while relaxing in the shade, you spot a snake slithering towards your tent. Your friends freak out and try to find an employee of the premises, while you stay behind to keep an eye on the snake. While admiring its beauty, you start seeing the shapes on the snake's back as if they were characters of text. Maybe it's trying to tell you something!
+
+As the snake is closing in with its famous 'S' shaped curves, you find yourself wondering if you can find all the occurrences of the same character you recognize on the snake's back.
+
+To make it easier, you imagine a column-limited text box filled in a snake-like pattern. That is, in the first line, text goes from left to right. In the second line, text goes from right to left. Third line left to right and so on. The head of snake is at (0, 0).
+
+Your goal is to find the coordinates of all the occurrences of a given character. Since you're able to read upside-down, don't worry about the direction / orientation of the character.
+
+Return the answer in sorted order (by the row number first, then the column).
+
+Examples
+
+For tex = "I always wondered why I came to this world.", wid = 14 and ch = "w", the output should be charLocation(tex, wid, ch) = [[0, 4], [0, 9], [1, 9], [2, 9]]
+
+The snake's text will look like this:
+
+I always wonde
+emac I yhw der
+ to this world
+             .
+There are 2 "w"'s in row 0, at columns 4 and 9, and there are also "w"'s in column 9 or rows 1 and 2. So the answer is [[0, 4], [0, 9], [1, 9], [2, 9]].
+
+For tex = "Why is it taking my friends so long, I'm going to die here if they don't hurry up.", wid = 30 and ch = "'", the output should be charLocation(tex, wid, ch) = [[1, 21], [2, 10]]
+
+The snake text looks like this:
+
+Why is it taking my friends so
+i ereh eid ot gniog m'I ,gnol 
+f they don't hurry up.
+There are only two apostrophes: one on row 1 at column 21, and one on row 2 at column 10.
+
+Input / Output
+
+[execution time limit] 4 seconds (js)
+
+[input] string tex
+
+A string of text containing English letters, numbers, punctuation, and whitespace.
+
+Guaranteed constraints:
+0 ≤ tex.length ≤ 1000
+tex[i] ∈ {"A - Z", "a - z", "0 - 9", "()[]:;.,-'!", space}
+
+[input] integer wid
+
+A number representing the width of lines the snake makes.
+
+Guaranteed constraints:
+0 < wid ≤ 150
+
+[input] char ch
+
+One character you are trying to find on the snake.
+
+Guaranteed constraints:
+ch ∈ {"A - Z", "a - z", "0 - 9", "()[]:;.,-'!", space}
+
+[output] array.array.integer
+
+An array of 2-element arrays representing the coordinates of all the occurrences of a character (sorted first by row, then by column).
